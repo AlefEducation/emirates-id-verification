@@ -16,6 +16,10 @@
     "uae"
   ],
   "author": "Pablo Segura - Alef Education",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlefEducation/emirates-id-verification.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^24.0.23",
