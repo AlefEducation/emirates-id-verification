@@ -2,10 +2,12 @@
   "name": "emirates-id-verification",
   "version": "1.0.0",
   "description": "A light package to allow Emirates ID verification for your Javascript Projects",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "prepare": "npm run build",
+    "build": "./node_modules/.bin/tsc -p ./tsconfig.json"
   },
   "keywords": [
     "emirates",
